@@ -44,7 +44,11 @@ update-check.json
 exec-approvals.json
 emergency-repair.ps1
 openclaw.json*
+openclaw *.json
 *.backup-*
+
+# Database backups
+memorydb-backup*/
 
 # IDE
 .vscode/
