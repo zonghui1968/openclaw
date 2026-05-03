@@ -1,0 +1,25 @@
+# Sensitive data
+credentials/
+config-backup.json
+lcm.db
+
+# Temporary and backup files
+backup*/
+backups/
+memory-backups/
+memory-snapshots/
+safety-before-restore-*/
+*.tmp
+*.log
+
+# Runtime data
+logs/
+memorydb/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
