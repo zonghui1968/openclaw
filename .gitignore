@@ -16,6 +16,36 @@ safety-before-restore-*/
 logs/
 memorydb/
 
+# Workspace directories
+workspace/
+workspace-*/
+
+# Agent and runtime directories
+agents/
+browser/
+canvas/
+cron/
+devices/
+extensions/
+feishu/
+identity/
+lcm-files/
+media/
+memory/
+openclaw-weixin/
+plugins/
+skills/
+subagents/
+telegram/
+
+# Temporary and auto-generated files
+test-file.txt
+update-check.json
+exec-approvals.json
+emergency-repair.ps1
+openclaw.json*
+*.backup-*
+
 # IDE
 .vscode/
 .idea/
